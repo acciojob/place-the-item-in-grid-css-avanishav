@@ -1,2 +1,32 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:grid;
+	grid-template-columns:repeat(2,1fr);
+	grid-template-rows:repeat(2,1fr);
+	width:200px;
+	height:200px;
+	gap:0;
+}
+.item{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	border:1px solid black;
+}
+.item-1{
+	background-color:red;
+	text-align:center;
+}
+.item-2{
+	background-color:yellow;
+	text-align:center;
+}
+.item-3{
+	background-color:blue;
+	text-align:center;
+}
+.item-4{
+	background-color:pink;
+	text-align:center;
+}
